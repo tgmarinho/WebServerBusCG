@@ -20,6 +20,12 @@ import com.sun.jersey.api.representation.Form;
 
 import dao.OnibusDAO;
 
+/**
+ * Classe de teste
+ * @author tgmarinho
+ *
+ */
+
 public class Test {
   public static void main(String[] args) {
       
