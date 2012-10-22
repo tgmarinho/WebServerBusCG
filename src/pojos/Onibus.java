@@ -21,9 +21,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Onibus {
 
+	
     @Column(nullable=false,unique=true)
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy= GenerationType.SEQUENCE)
     private Integer id;
     @Column(nullable=false)
     private String nome;
@@ -88,9 +89,4 @@ public class Onibus {
         this.longitude = longitude;
     }
     
-    @Override
-    public String toString()
-    {
-        return "Sou o onibus " + this.getNome() + " com ID " + this.getId();
-    }
 }
