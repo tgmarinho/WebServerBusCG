@@ -1,17 +1,11 @@
-<%-- 
-    Document   : index
-    Created on : 31/08/2012, 09:17:37
-    Author     : suporte-urms
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Server Bus | Executando</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>ServerBus em execução, aceitando requisições HTTP!</h1>
     </body>
 </html>

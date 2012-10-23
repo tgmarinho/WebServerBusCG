@@ -1,12 +1,16 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exception;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
+
+/**
+ * Código cedido por Christiam Masdeval
+ * 
+ * Adaptação do código @tgmarinho
+ * 
+ */
 
 public class NoContentException extends WebApplicationException {
     private static final long serialVersionUID = 1L;

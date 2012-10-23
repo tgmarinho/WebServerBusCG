@@ -1,10 +1,14 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package dao;
 
 import javax.persistence.EntityManager;
+
+/**
+ * Código desenvolvido por Christiam Masdeval
+ * @author Christiam Masdeval
+ * 
+ * Adaptado por @tgmarinho
+ *
+ */
 
 public abstract class AbstractFacade<T> {
     private Class<T> entityClass;
@@ -39,7 +43,4 @@ public abstract class AbstractFacade<T> {
         getEntityManager().getTransaction().commit();
         return aux;
     }
-
-    
- 
 }

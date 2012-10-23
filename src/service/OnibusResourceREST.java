@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package service;
 
 import java.io.IOException;
@@ -23,9 +20,16 @@ import dao.OnibusDAO;
 import exception.NoContentException;
 
 /**
+ * Código cedido por Christiam Masdeval
  * 
- * @author suporte-urms
+ * Adaptação do código @tgmarinho
+ * 
  */
+
+/** WebService responsável por receber solicitações HTTP, adivindas das aplicações BusCgSender e BusCg,
+ *  a primeira utiliza o método alterar dessa classe e a segunda aplição utiliza o método getOnibus
+*/
+
 @Path("/onibus")
 public class OnibusResourceREST {
 
